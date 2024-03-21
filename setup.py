@@ -7,5 +7,5 @@ setup(
   description='sample python package to print "Hello, world!"',
   author='maup007',
   author_email='maup@tdc.dk',
-  url='https://github.com/maup007/pyhton-packages-into-github-packages',
+  url='https://pypi.pkg.github.com/maup007/pyhton-packages-into-github-package',
 )
