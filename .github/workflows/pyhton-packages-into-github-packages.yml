@@ -23,7 +23,7 @@ jobs:
 
       - name: publish Package
         run: |
-          twine upload --repository pypi-mypackage dist/*
+          twine upload --repository-url https://upload.pypi.org/legacy/ --repository pypi dist/*
         env:
           TWINE_USERNAME: maup007
           TWINE_PASSWORD: ${{ secrets.PYTHON_TOKEN }}
